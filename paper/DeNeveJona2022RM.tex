@@ -88,7 +88,8 @@
 % TODO: (fase 2) introduceer je gekozen onderwerp, formuleer de onderzoeksvraag en deelvragen. Wat is de doelstelling (is die S.M.A.R.T.?), wat zal het resultaat zijn van het onderzoek (een Proof-of-Concept, een prototype, een advies, ...)? Waarom is het nuttig om dit onderwerp te onderzoeken?
 
 Wanneer men spreekt over een desktop computer, kun je wel de grote rechthoekige omhulsel voorstellen. Hierin zitten alle componenten die de computer vormen zoals bijvoorbeeld de GPU, het moederbord. de CPU en de RAM. Deze hebben allemaal samen met hun koelingssysteem plaats nodig binnen de computer. Maar wat als er niet zoveel ruimte nodig is? \\
-Met Apple's nieuwe computer de Apple Mac Studio krijg je daarvan een voorbeeld. Deze nieuwe computer is niet groter dan een brooddoos. Dit is mogelijk dankzij Apple's M1 chip. Die de meeste componenten die anders apart in de computer zitten, door gebruik te maken van een ARM-infrastructuur, bevat.
+Met Apple's nieuwe computer de Apple Mac Studio krijg je daarvan een voorbeeld. Deze nieuwe computer is niet groter dan een brooddoos. Dit is mogelijk dankzij Apple Silicon's M1 chip die de meeste componenten die anders apart in de computer zitten bevat. \\
+Apple Silicon's chips maken gebruik van SOC. Iets wat niet nieuw is. Deze chips werden al langer gebruikt in apparaten voor het huishouden en in gsm's maar pas recent in desktops en laptops.
 
 
 \subsection{Onderzoeksvraag}
@@ -111,24 +112,28 @@ Hiervoor zal onderzocht worden hoe de M1 chip is opgebouwd. Vervolgens zullen de
 % \textcite{BIBTEXKEY} -> Auteur (jaartal)
 % Voorbeeld van een referentie waar de auteursnaam geen onderdeel van de zin is~\autocite{Moore2002}.
 
-https://www.youtube.com/watch?v=LFQ3LkVF5sM
+\textcite{Apple2020} \\
 
-https://ieeexplore.ieee.org/abstract/document/9696024
+In de documentatie van \textcite{ARM2014}'s Cortex-A Series word het principe van 'big.LITTLE' uitgelegd. Dit zorgt ervoor dat de chip niet onnodig energie verbruikt voor kleine taken door aparte cores te maken voor hoge en lage performance. \\
 
-https://dl.acm.org/doi/abs/10.1145/3494834.3501254
+\textcite{Dalakoti2022} \\
 
-http://www.eprajournals.net/index.php/IJRD/article/view/460
+In zijn artikel bespreekt \textcite{Frazelle2021} de verschillende soorten chips op de hedendaagse markt. Hierin neemt hij dus ook de M1 chip onder de loep. Zo brengt hij de flexibele aard van de chip aan bod. De chip kan gebruikt worden van AI tot het omzetten van audio en video bestanden. Daarnaast beschikt de chip over een gemeenschappelijke opslag voor de verschillende componenten wat zorgt dat de data overdracht sneller kan en minder ruimte gebruikt. Het laatste deel dat Frazelle schreef over de M1 chip gaat over de overstap van architectuur. Zo gaat Apple van een Intel x86 chip met CISC architectuur over naar een de M1 chip met RISC.  \\
 
 \section{Methodologie}
 
 % TODO: (fase 5) beschrijf in detail in welke fasen je onderzoek uiteenvalt, hoe lang elke fase duurt en wat het concrete resultaat van elke fase is. Welke onderzoekstechniek ga je toepassen om elk van je onderzoeksvragen te beantwoorden? Gebruik je hiervoor experimenten, vragenlijsten, simulaties? Je beschrijft ook al welke tools je denkt hiervoor te gebruiken of te ontwikkelen.
 
-In dit onderzoek zal eerst onderzocht worden hoe Apple's M1 chip is opgebouwd. Hiervoor zal een literatuur onderzoek gehouden worden om te zien waar de componenten zich op de chip bevinden. \\
+In dit onderzoek zal eerst onderzocht worden hoe Apple's M1 chip is opgebouwd. Hiervoor zal een literatuur onderzoek gehouden worden om de infrastructuur en de blauwdruk van de chip te vinden. Hierop kunnen we vervolgens zien waar welke componenten zich op de chip bevinden en hoeveel ruimte elk op de chip in neemt. \\
 Vervolgens zullen de prestaties van de M1 chip getest worden. Zo zal gekeken worden naar hoeveel stroom de chip verbruikt onder verschillende belastingen, hoe goed de taken worden afgewerkt en  \\
 Als laatste wordt de prestaties vergeleken met die van computers zonder ARM of SOCs. Zo wordt gekeken waar de M1 chip voordelen bied en waar deze tekort komt.
 
 \section{Verwachte resultaten}
--Lagere energie verbruik voor
+
+Uit het literatuur onderzoek word verwacht de infrastructuur en de blauwdruk van de M1 chip te vinden. Ook welke versies van de verschillende componenten. \\
+Uit de test
+'For Apple, this means better battery life for its devices and power savings for its desktops' \autocite{Frazelle2021}
+
 
 
 
