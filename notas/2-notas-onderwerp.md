@@ -4,3 +4,4 @@ Noteer in dit document je ideeën voor een onderwerp en onderzoeksvraag. Je hoef
 
 1. Wat is ARM (Advanced ) en hoe zal het de computer varanderen?
 2. Is de apple M1 chip de toekomst van computers?
+3. Effect M1 chip computers van vandaag?

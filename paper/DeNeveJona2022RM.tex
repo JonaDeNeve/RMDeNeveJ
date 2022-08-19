@@ -88,8 +88,7 @@
 % TODO: (fase 2) introduceer je gekozen onderwerp, formuleer de onderzoeksvraag en deelvragen. Wat is de doelstelling (is die S.M.A.R.T.?), wat zal het resultaat zijn van het onderzoek (een Proof-of-Concept, een prototype, een advies, ...)? Waarom is het nuttig om dit onderwerp te onderzoeken?
 
 Wanneer men spreekt over een desktop computer, kun je wel de grote rechthoekige vorm voorstellen. Hierin zitten alle componenten die de computer vormen zoals de GPU, het moederbord. de CPU en de RAM. Deze hebben samen met hun koelingssysteem allemaal plaats nodig binnen de computer. Maar wat als er niet zoveel ruimte nodig is? \\
-Met Apple's nieuwe computer de Apple Mac Mini krijg je daarvan een voorbeeld. Deze nieuwe computer is niet groter dan een brooddoos. Dit is mogelijk dankzij Apple Silicon's M1 chip die de meeste componenten bevat die anders apart in de computer zitten. \\
-Apple Silicon's chips maken gebruik van SOC. Iets wat niet nieuw is. Deze chips werden al langer gebruikt in apparaten voor het huishouden en in mobile telefoons.
+Met Apple's nieuwe computer de Apple Mac Mini krijg je daarvan een voorbeeld. Deze nieuwe computer is niet groter dan een brooddoos. Dit komt door Apple Silicon's M1 chip die de meeste componenten ingebouwd heeft die anders apart in de computer zitten. Hiervoor maakt de M1 chip gebruik van SoC (System on a chip) en een ARM (Advanced RISC Machine) architectuur. Twee technologieën die al langer gebruikt werden in mobiele telefoons en andere apparaten binnens- en buitenshuis.
 
 \subsection{Onderzoeksvraag}
 
@@ -97,7 +96,7 @@ Er wordt onderzocht welk effect de M1 chip heeft op hedendaagse computer.
 
 \subsection{Onderliggende onderzoeksvragen}
 
-Hiervoor zal onderzocht worden hoe de M1 chip is opgebouwd. Vervolgens zullen de prestaties van de M1 chip getest worden. Als laatste zullen deze prestaties vergeleken worden met niet-ARM gebaseerde computers.
+Hiervoor zal onderzocht worden hoe de M1 chip is opgebouwd. Vervolgens zullen de prestaties van de M1 chip getest worden. Als laatste zullen deze prestaties vergeleken worden met andere computers, met en zonder SoC's.
 
 
 
@@ -110,7 +109,7 @@ Hiervoor zal onderzocht worden hoe de M1 chip is opgebouwd. Vervolgens zullen de
 % \textcite{BIBTEXKEY} -> Auteur (jaartal)
 % Voorbeeld van een referentie waar de auteursnaam geen onderdeel van de zin is~\autocite{Moore2002}.
 
-\textcite{Apple2020} \\
+Volgens \textcite{Apple2020}  \\
 In de documentatie van \textcite{ARM2014}'s Cortex-A Series word het principe van 'big.LITTLE' uitgelegd. Dit zorgt ervoor dat de chip niet onnodig energie verbruikt voor kleine taken door aparte cores te maken voor hoge en lage performance. \\
 Studenten \textcite{Dalakoti2022} vergeleken de nieuwe M1 chip met zijn voorganger de Intel x86. Hieruit hebben ze ondervonden dat de M1 chip dankzij de ARM architectuur betere cross-compatibility heeft tussen mobile apparaten en pc's. Daarnaast is hij ook sneller dankzij het gebruik van Rosetta 2.0 die het mogelijk maakt Intel programma's uit te voeren. \\
 In zijn artikel bespreekt \textcite{Frazelle2021} de verschillende soorten chips op de hedendaagse markt. Hierin neemt hij dus ook de M1 chip onder de loep. Zo brengt hij de flexibele aard van de chip aan bod. De chip kan gebruikt worden van AI tot het omzetten van audio en video bestanden. Daarnaast beschikt de chip over een gemeenschappelijke opslag voor de verschillende componenten wat zorgt dat de data overdracht sneller kan en minder ruimte gebruikt. Het laatste deel dat Frazelle schreef over de M1 chip gaat over de overstap van architectuur. Zo gaat Apple van een Intel x86 chip met CISC (complex instruction set computer) architectuur over naar een de M1 chip met RISC (reduced instruction set computer). Hiermee wordt de prestaties groter, minder energie verbruikt en ontstaat er minder warmte. \\
@@ -120,8 +119,8 @@ In zijn artikel bespreekt \textcite{Frazelle2021} de verschillende soorten chips
 % TODO: (fase 5) beschrijf in detail in welke fasen je onderzoek uiteenvalt, hoe lang elke fase duurt en wat het concrete resultaat van elke fase is. Welke onderzoekstechniek ga je toepassen om elk van je onderzoeksvragen te beantwoorden? Gebruik je hiervoor experimenten, vragenlijsten, simulaties? Je beschrijft ook al welke tools je denkt hiervoor te gebruiken of te ontwikkelen.
 
 In dit onderzoek zal eerst onderzocht worden hoe Apple's M1 chip is opgebouwd. Hiervoor zal een literatuur onderzoek gehouden worden om de infrastructuur en de blauwdruk van de chip te vinden. Hierop kunnen we vervolgens zien waar welke componenten zich op de chip bevinden en hoeveel ruimte elk op de chip in neemt. \\
-Vervolgens zullen de prestaties van de M1 chip getest worden. Zo zal gekeken worden naar hoeveel stroom de chip verbruikt onder verschillende belastingen, hoe goed de taken worden afgewerkt en  \\
-Als laatste wordt de prestaties vergeleken met die van computers zonder ARM of SOCs. Zo wordt gekeken waar de M1 chip voordelen bied en waar deze tekort komt.
+Vervolgens zullen de prestaties van de M1 chip getest worden. Zo zal gekeken worden naar hoeveel stroom de chip verbruikt onder verschillende belastingen, hoe goed de taken worden afgewerkt en de status van de chip na deze taken. \\
+Als laatste wordt de prestaties vergeleken met andere computers op de markt. Zowel naar die met SoC's als degene zonder. Zo wordt gekeken waar de M1 chip voordelen bied en waar deze tekort komt.
 
 \section{Verwachte conclusies}
 
