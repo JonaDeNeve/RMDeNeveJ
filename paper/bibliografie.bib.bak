@@ -34,4 +34,9 @@
   url    = {https://developer.arm.com/documentation/den0013/d/?lang=en},
 }
 
+@Article{,
+  author = {Sumukh, Rao},
+  title  = {Apple Silicon Mac vs Intel Mac: Which Mac should you buy?},
+}
+
 @Comment{jabref-meta: databaseType:biblatex;}

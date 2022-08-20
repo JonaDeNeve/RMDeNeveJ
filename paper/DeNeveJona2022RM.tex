@@ -45,7 +45,7 @@
 %---------- Abstract ----------------------------------------------------------
 
 \Abstract{% TODO: (fase 6)
- Op 10 november kondigde Apple de nieuwe M1 chip van hun Apple Silicon's aan. Met deze chip gooiden ze hun Mac reeks over een nieuwe boeg. In dit onderzoek word onderzocht wat er nieuw is aan de chip en hoe hij verschilt van andere computers. Hiervoor zal worden gekeken hoe hij is opgebouwd, waar welke componenten zich bevinden. Vervolgens zal getest worden hoe hij presteert onder verschillende belastingen. Als laatste zal die data vergeleken worden met andere computers om te zien waar hij in uitblinkt en waar hij tekort komt. Uit de uitslag word verwacht dat de M1 chip zoals Apple beweert de beste chip met SoC (System on a chip) voor een laptop of desktop is. Maar dat de beste grafische kaarten en processors die apart in een computer zitten nog steeds voor hoge belastingen, aan een groter energie verbruik, beter zijn.
+ Op 10 november 2020 kondigde Apple de nieuwe M1 chip van hun Apple Silicon's aan. Met deze chip gooiden ze hun Mac reeks over een nieuwe boeg. In dit onderzoek word onderzocht wat er nieuw is aan de chip en hoe hij verschilt van andere computers. Hiervoor zal worden gekeken hoe hij is opgebouwd, waar welke componenten zich bevinden. Vervolgens zal getest worden hoe hij presteert onder verschillende belastingen. Als laatste zal die data vergeleken worden met andere computers om te zien waar hij in uitblinkt en waar hij tekort komt. Uit de uitslag word verwacht dat de M1 chip zoals Apple beweert de beste chip met SoC (System on a chip) voor een laptop of desktop is. Maar dat de beste grafische kaarten en processors die apart in een computer zitten nog steeds voor hoge belastingen, aan een groter energie verbruik, beter zijn.
 }
 
 %---------- Onderzoeksdomein en sleutelwoorden --------------------------------
@@ -87,18 +87,8 @@
 
 % TODO: (fase 2) introduceer je gekozen onderwerp, formuleer de onderzoeksvraag en deelvragen. Wat is de doelstelling (is die S.M.A.R.T.?), wat zal het resultaat zijn van het onderzoek (een Proof-of-Concept, een prototype, een advies, ...)? Waarom is het nuttig om dit onderwerp te onderzoeken?
 
-Wanneer men spreekt over een desktop computer, kun je wel de grote rechthoekige vorm voorstellen. Hierin zitten alle componenten die de computer vormen zoals de GPU, het moederbord. de CPU en de RAM. Deze hebben samen met hun koelingssysteem allemaal plaats nodig binnen de computer. Maar wat als er niet zoveel ruimte nodig is? \\
-Met Apple's nieuwe computer de Apple Mac Mini krijg je daarvan een voorbeeld. Deze nieuwe computer is niet groter dan een brooddoos. Dit komt door Apple Silicon's M1 chip die de meeste componenten ingebouwd heeft die anders apart in de computer zitten. Hiervoor maakt de M1 chip gebruik van SoC (System on a chip) en een ARM (Advanced RISC Machine) architectuur. Twee technologieën die al langer gebruikt werden in mobiele telefoons en andere apparaten binnens- en buitenshuis.
-
-\subsection{Onderzoeksvraag}
-
-Er wordt onderzocht welk effect de M1 chip heeft op hedendaagse computer.
-
-\subsection{Onderliggende onderzoeksvragen}
-
-Hiervoor zal onderzocht worden hoe de M1 chip is opgebouwd. Vervolgens zullen de prestaties van de M1 chip getest worden. Als laatste zullen deze prestaties vergeleken worden met andere computers, met en zonder SoC's.
-
-
+Wanneer men spreekt over een desktop computer, kun je wel de grote rechthoekige vorm voorstellen. Hierin zitten alle componenten die de computer vormen zoals de grafische kaart, het moederbord. de processor en de RAM. Deze hebben samen met hun koelingssysteem allemaal plaats nodig binnen de computer. Maar wat als er niet zoveel ruimte nodig is? \\
+Met Apple's nieuwe computer de Apple Mac Mini krijg je daarvan een voorbeeld. Deze nieuwe computer is niet groter dan een brooddoos. Dit komt door Apple Silicon's M1 chip die de meeste componenten ingebouwd heeft die anders apart in de computer zitten. Hiervoor maakt de M1 chip gebruik van SoC (System on a chip) en een ARM (Advanced RISC Machine) architectuur. Twee technologieën die al langer werden gebruikt in mobiele telefoons en andere apparaten binnens- en buitenshuis maar welk effect zal de chip hebben op hedendaagse computers. Dit onderzoek zal daar een antwoord op zoeken. Hiervoor zal onderzocht worden hoe de M1 chip is opgebouwd. Vervolgens zullen de prestaties van de M1 chip getest worden. Als laatste zullen deze prestaties vergeleken worden met andere computers, met en zonder SoC's.
 
 \section{Overzicht literatuur}
 
@@ -109,7 +99,10 @@ Hiervoor zal onderzocht worden hoe de M1 chip is opgebouwd. Vervolgens zullen de
 % \textcite{BIBTEXKEY} -> Auteur (jaartal)
 % Voorbeeld van een referentie waar de auteursnaam geen onderdeel van de zin is~\autocite{Moore2002}.
 
-Volgens \textcite{Apple2020}  \\
+De M1 chip is Apple Silicon's eerste chip van een nieuwe reeks van SoC chips. Deze verschilt met de andere reeksen omdat hij gemaakt is voor de Mac toestellen. Deze toestellen bestaan uit een aantal laptops en desktops. Voor de M1 chip werd in deze toestellen een processor en grafische kaart van Intel gebruikt. Deze chips zaten allemaal apart op het moederbord en data moest dus lange afstanden afleggen van de ene chip tot de andere. Om dit aan te passen heeft Apple de aparte componenten samen in de M1 chip gestoken. Zo bevat hij dus een processor en grafische kaart met 8 kernen, een Neural Engine met 16 kernen, de RAM en een gemeenschappelijke opslag \autocite{Apple2020}.
+\\
+\\
+Als we \textcite{Apple2020} mogen geloven zit de M1 chip alleen in zijn categorie.  \\
 In de documentatie van \textcite{ARM2014}'s Cortex-A Series word het principe van 'big.LITTLE' uitgelegd. Dit zorgt ervoor dat de chip niet onnodig energie verbruikt voor kleine taken door aparte cores te maken voor hoge en lage performance. \\
 Studenten \textcite{Dalakoti2022} vergeleken de nieuwe M1 chip met zijn voorganger de Intel x86. Hieruit hebben ze ondervonden dat de M1 chip dankzij de ARM architectuur betere cross-compatibility heeft tussen mobile apparaten en pc's. Daarnaast is hij ook sneller dankzij het gebruik van Rosetta 2.0 die het mogelijk maakt Intel programma's uit te voeren. \\
 In zijn artikel bespreekt \textcite{Frazelle2021} de verschillende soorten chips op de hedendaagse markt. Hierin neemt hij dus ook de M1 chip onder de loep. Zo brengt hij de flexibele aard van de chip aan bod. De chip kan gebruikt worden van AI tot het omzetten van audio en video bestanden. Daarnaast beschikt de chip over een gemeenschappelijke opslag voor de verschillende componenten wat zorgt dat de data overdracht sneller kan en minder ruimte gebruikt. Het laatste deel dat Frazelle schreef over de M1 chip gaat over de overstap van architectuur. Zo gaat Apple van een Intel x86 chip met CISC (complex instruction set computer) architectuur over naar een de M1 chip met RISC (reduced instruction set computer). Hiermee wordt de prestaties groter, minder energie verbruikt en ontstaat er minder warmte. \\
