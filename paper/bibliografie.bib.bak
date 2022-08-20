@@ -31,12 +31,19 @@
   author = {ARM},
   date   = {2014-01-22},
   title  = {ARM Cortex-A Series Programmer's Guide},
-  url    = {https://developer.arm.com/documentation/den0013/d/?lang=en},
+  url    = {https://developer.arm.com/documentation/den0013/d/big-LITTLE?lang=en},
+}
+
+@Article{Sumukh2021,
+  author = {Sumukh, Rao},
+  date   = {2021-06-05},
+  title  = {Apple Silicon Mac vs Intel Mac: Which Mac should you buy?},
+  url    = {https://www.xda-developers.com/apple-silicon-mac-vs-intel-mac/#:~:text=Apple M1 chip is Newer and Faster&text=Compared to the Intel chip,M1 is a better option.},
 }
 
 @Article{,
-  author = {Sumukh, Rao},
-  title  = {Apple Silicon Mac vs Intel Mac: Which Mac should you buy?},
+  author = {Thornton, Scott},
+  url    = {https://www.microcontrollertips.com/risc-vs-cisc-architectures-one-better/},
 }
 
 @Comment{jabref-meta: databaseType:biblatex;}
