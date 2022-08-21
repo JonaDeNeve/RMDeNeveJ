@@ -7,6 +7,7 @@
   title        = {Chip Measuring Contest: The benefits of purpose-built chips},
   issue        = {5},
   url          = {https://dl.acm.org/doi/abs/10.1145/3494834.3501254},
+  urldate      = {2022-08-05},
   volume       = {19},
   timestamp    = {2022-08-05},
 }
@@ -18,6 +19,7 @@
   title        = {APPLE M1 CHIP VSINTEL (X86)},
   issue        = {5},
   url          = {http://www.eprajournals.net/index.php/IJRD/article/view/460},
+  urldate      = {2022-08-05},
   volume       = {7},
   timestamp    = {2022-08-05},
 }
@@ -27,6 +29,7 @@
   date      = {2020-11-10},
   title     = {Apple unleashes M1},
   url       = {https://www.apple.com/newsroom/2020/11/apple-unleashes-m1/},
+  urldate   = {2022-08-11},
   timestamp = {2022-08-11},
 }
 
@@ -35,6 +38,7 @@
   date      = {2014-01-22},
   title     = {ARM Cortex-A Series Programmer's Guide},
   url       = {https://developer.arm.com/documentation/den0013/d/big-LITTLE?lang=en},
+  urldate   = {2022-08-05},
   timestamp = {2022-08-05},
 }
 
@@ -43,6 +47,7 @@
   date      = {2021-06-05},
   title     = {Apple Silicon Mac vs Intel Mac: Which Mac should you buy?},
   url       = {https://www.xda-developers.com/apple-silicon-mac-vs-intel-mac/#:~:text=Apple M1 chip is Newer and Faster&text=Compared to the Intel chip,M1 is a better option.},
+  urldate   = {2022-08-19},
   timestamp = {2022-08-19},
 }
 
@@ -51,7 +56,17 @@
   date      = {2018-01-08},
   title     = {RISC vs. CISC Architectures: Which one is better?},
   url       = {https://www.microcontrollertips.com/risc-vs-cisc-architectures-one-better/},
+  urldate   = {2022-08-19},
   timestamp = {2022-08-19},
+}
+
+@Article{Edwards2022,
+  author       = {Edwards, Benj},
+  date         = {2022-08-05},
+  journaltitle = {How-to Geek},
+  title        = {What Is Rosetta 2 on Mac?},
+  url          = {https://www.howtogeek.com/822889/what-is-rosetta-2-on-mac/},
+  urldate      = {2022-08-21},
 }
 
 @Comment{jabref-meta: databaseType:biblatex;}
