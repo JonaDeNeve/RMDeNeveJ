@@ -8,6 +8,7 @@
   issue        = {5},
   url          = {https://dl.acm.org/doi/abs/10.1145/3494834.3501254},
   volume       = {19},
+  timestamp    = {2022-08-05},
 }
 
 @Article{Dalakoti2022,
@@ -18,32 +19,39 @@
   issue        = {5},
   url          = {http://www.eprajournals.net/index.php/IJRD/article/view/460},
   volume       = {7},
+  timestamp    = {2022-08-05},
 }
 
 @Article{Apple2020,
-  author = {Apple},
-  date   = {2020-11-10},
-  title  = {Apple unleashes M1},
-  url    = {https://www.apple.com/newsroom/2020/11/apple-unleashes-m1/},
+  author    = {Apple},
+  date      = {2020-11-10},
+  title     = {Apple unleashes M1},
+  url       = {https://www.apple.com/newsroom/2020/11/apple-unleashes-m1/},
+  timestamp = {2022-08-11},
 }
 
 @Manual{ARM2014,
-  author = {ARM},
-  date   = {2014-01-22},
-  title  = {ARM Cortex-A Series Programmer's Guide},
-  url    = {https://developer.arm.com/documentation/den0013/d/big-LITTLE?lang=en},
+  author    = {ARM},
+  date      = {2014-01-22},
+  title     = {ARM Cortex-A Series Programmer's Guide},
+  url       = {https://developer.arm.com/documentation/den0013/d/big-LITTLE?lang=en},
+  timestamp = {2022-08-05},
 }
 
 @Article{Sumukh2021,
-  author = {Sumukh, Rao},
-  date   = {2021-06-05},
-  title  = {Apple Silicon Mac vs Intel Mac: Which Mac should you buy?},
-  url    = {https://www.xda-developers.com/apple-silicon-mac-vs-intel-mac/#:~:text=Apple M1 chip is Newer and Faster&text=Compared to the Intel chip,M1 is a better option.},
+  author    = {Sumukh, Rao},
+  date      = {2021-06-05},
+  title     = {Apple Silicon Mac vs Intel Mac: Which Mac should you buy?},
+  url       = {https://www.xda-developers.com/apple-silicon-mac-vs-intel-mac/#:~:text=Apple M1 chip is Newer and Faster&text=Compared to the Intel chip,M1 is a better option.},
+  timestamp = {2022-08-19},
 }
 
-@Article{,
-  author = {Thornton, Scott},
-  url    = {https://www.microcontrollertips.com/risc-vs-cisc-architectures-one-better/},
+@Article{Thornton2018,
+  author    = {Thornton, Scott},
+  date      = {2018-01-08},
+  title     = {RISC vs. CISC Architectures: Which one is better?},
+  url       = {https://www.microcontrollertips.com/risc-vs-cisc-architectures-one-better/},
+  timestamp = {2022-08-19},
 }
 
 @Comment{jabref-meta: databaseType:biblatex;}
