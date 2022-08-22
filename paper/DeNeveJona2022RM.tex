@@ -16,6 +16,13 @@
 
 \usepackage{lipsum} % Voor vultekst
 
+\newcommand\blfootnote[1]{%
+    \begingroup
+    \renewcommand\thefootnote{}\footnote{#1}%
+    \addtocounter{footnote}{-1}%
+    \endgroup
+}
+
 %------------------------------------------------------------------------------
 % Metadata over het artikel
 %------------------------------------------------------------------------------
@@ -73,11 +80,12 @@
 %---------- Titel, inhoud -----------------------------------------------------
 
 \begin{document}
-
 \flushbottom % Makes all text pages the same height
 \maketitle % Print the title and abstract box
     \tableofcontents % Print the contents section
 \thispagestyle{empty} % Removes page numbering from the first page
+
+\blfootnote{https://github.com/JonaDeNeve/RMDeNeveJ}
 
 %------------------------------------------------------------------------------
 % Hoofdtekst
